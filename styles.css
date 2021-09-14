@@ -1,0 +1,37 @@
+*{
+    background-color: whitesmoke;
+}
+.display{
+    padding: 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label {
+    padding: .5em 1em .5em 0;
+    animation: color-change 1.5s infinite;
+  }
+  input {
+    flex: 1;
+  }
+  input, button {
+    padding: .5em;
+  }
+  button {
+    background: gray;
+    color: white;
+    border: 0;
+   }
+
+   #answer{
+       font-size: 2rem;
+   }
+
+  @keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: red; }
+  }
